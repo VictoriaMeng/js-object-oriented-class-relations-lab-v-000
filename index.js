@@ -15,7 +15,7 @@ class Driver {
   };
 
   passengers() {
-    return trips.map(trip => trip.passenger);
+    return trips().map(trip => trip.passenger);
   };
 };
 
