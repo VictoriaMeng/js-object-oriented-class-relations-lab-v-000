@@ -28,6 +28,7 @@ class Trip {
   };
 
   driver() {
-    return store.drivers.find(user => return user.id === this.userID);
-  };
+    return store.drivers.find(
+
+    )};
 };
