@@ -10,8 +10,8 @@ class Driver {
     this.id = ++driverId;
   };
 
-  trips(store) {
-    return store;
+  trips() {
+    return store.trips;
   };
 };
 
