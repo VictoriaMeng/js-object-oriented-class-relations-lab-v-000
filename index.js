@@ -20,4 +20,4 @@ class Passenger {
 
 class Trip {
 
-}
+};
