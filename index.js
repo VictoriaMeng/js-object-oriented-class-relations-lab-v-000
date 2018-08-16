@@ -1,5 +1,6 @@
 const store = { drivers: [], passengers: [] };
-let driverId = 0
+let driverId = 0;
+let passengerId = 0;
 
 class Driver {
   constructor(name) {
@@ -13,6 +14,6 @@ class Passenger {
   constructor(name) {
     this.name = name;
     store.passengers.push(this);
-    
+
   };
 };
