@@ -9,6 +9,10 @@ class Driver {
     store.drivers.push(this);
     this.id = ++driverId;
   };
+
+  trips() {
+
+  };
 };
 
 class Passenger {
