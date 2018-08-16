@@ -19,5 +19,7 @@ class Passenger {
 };
 
 class Trip {
+  constructor() {
 
+  };
 };
