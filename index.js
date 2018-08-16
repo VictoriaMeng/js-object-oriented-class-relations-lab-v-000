@@ -28,6 +28,6 @@ class Trip {
   };
 
   driver() {
-    return store.drivers.find(function(driver) {return driver.id = this.driverID});
+    return store.drivers.find(function(driver) {return driver.id = this.driverId});
   };
 };
