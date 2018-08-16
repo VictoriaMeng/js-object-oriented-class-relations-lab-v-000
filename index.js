@@ -21,6 +21,6 @@ class Passenger {
 
 class Trip {
   constructor() {
-
+    store.trips.push(this);
   };
 };
